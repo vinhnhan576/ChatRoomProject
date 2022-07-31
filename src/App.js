@@ -1,13 +1,11 @@
 import "./App.css";
 import SignIn from "./components/SignIn/SignIn";
-import ChatRoom from "./components/ChatRoom/ChatRoom";
 
 import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
 import "firebase/compat/auth";
 
 import { useAuthState } from "react-firebase-hooks/auth";
-import { useCollectionData } from "react-firebase-hooks/firestore";
 import MainPage from "./components/MainPage/MainPage";
 
 firebase.initializeApp({

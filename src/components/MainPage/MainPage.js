@@ -7,7 +7,7 @@ export default function MainPage(props) {
   const [openSettings, setOpenSettings] = useState("closeSettings");
 
   const openSettingsMenu = (e) => {
-    if (openSettings == "openSettings") setOpenSettings("closeSettings");
+    if (openSettings === "openSettings") setOpenSettings("closeSettings");
     else setOpenSettings("openSettings");
   };
 

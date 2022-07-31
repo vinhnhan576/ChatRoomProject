@@ -18,6 +18,9 @@ header {
 header .logo {
   color: rgb(13, 45, 104);
   margin-left: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 header .userSettings {
@@ -55,7 +58,8 @@ header .userSettings .buttonSettings p {
 
 header .userSettings .buttonSettings .userName {
   height: 25px;
-  font-size: 21px;
+  font-size: 19px;
+  font-family: 'Merriweather', serif;
 }
 
 header .openSettings {
