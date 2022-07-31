@@ -1,0 +1,25 @@
+.SignOut {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 5px 5px;
+  border-radius: 10px;
+}
+
+.SignOut img {
+  height: 25px;
+}
+
+.SignOut button {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(54, 159, 230);
+  margin: 0 5px;
+}
+
+.SignOut:hover {
+  background-color: rgb(195, 214, 255);
+}
+
+.SignOut:hover button {
+  color: white;
+}

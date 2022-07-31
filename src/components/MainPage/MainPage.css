@@ -1,0 +1,74 @@
+header {
+  background-color: white;
+  height: 10vh;
+  min-height: 50px;
+  position: fixed;
+  width: 100vw;
+  max-width: 728px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  padding: 0 15px;
+  box-sizing: border-box;
+  border-radius: 0 0 12px 12px;
+}
+
+header .logo {
+  color: rgb(13, 45, 104);
+  margin-left: 20px;
+}
+
+header .userSettings {
+  display: flex;
+  align-items: center;
+  height: calc(10vh - 10px);
+  padding: 0 20px 0 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+header .userSettings:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+header .userSettings .userIcon {
+  height: calc(10vh - 25px);
+  border-radius: 50%;
+}
+
+header .userSettings .buttonSettings {
+  margin-left: 8px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 10vh;
+}
+
+header .userSettings .buttonSettings p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+header .userSettings .buttonSettings .userName {
+  height: 25px;
+  font-size: 21px;
+}
+
+header .openSettings {
+  position: absolute;
+  top: 70px;
+  right: 15px;
+  background-color: white;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+header .closeSettings {
+  position: absolute;
+  visibility: hidden;
+}

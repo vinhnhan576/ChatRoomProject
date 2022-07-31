@@ -1,0 +1,62 @@
+.ChatRoom {
+  background-color: rgb(192, 204, 255);
+  height: 100vh;
+}
+
+.Messages {
+  background-color: rgb(192, 204, 255);
+  height: 100%;
+  transform: translateY(70px);
+  width: 100vw;
+  max-width: 728px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+main::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+.ChatRoom form {
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 728px;
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.ChatRoom form img {
+  /* width: 20px; */
+  /* background-color: rgb(42, 78, 197); */
+  height: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.ChatRoom input {
+  line-height: 1.5;
+  width: 100%;
+  font-size: 1.5rem;
+  background: rgb(255, 255, 255);
+  color: rgb(59, 110, 187);
+  outline: none;
+  border: none;
+  padding: 0 15px;
+  padding-left: 20px;
+}
+
+.dummy {
+  height: 11vh;
+}
