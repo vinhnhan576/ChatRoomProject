@@ -10,7 +10,7 @@ import MainPage from "./components/MainPage/MainPage";
 
 firebase.initializeApp({
   apiKey: "AIzaSyC3uz-AHw4usKkFm5cjwFhIG6xbYa-GybI",
-  authDomain: "https://vinhnhan576.github.io/ChatRoomProject/",
+  authDomain: "chatprojectbyvnhan.firebaseapp.com",
   projectId: "chatprojectbyvnhan",
   storageBucket: "chatprojectbyvnhan.appspot.com",
   messagingSenderId: "872740841204",
