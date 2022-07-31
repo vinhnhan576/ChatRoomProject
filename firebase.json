@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "ChatRoom",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
